@@ -1,0 +1,4 @@
+
+function salaryCalculator(salary){
+let
+}
