@@ -16,7 +16,6 @@ function speedDetector (speed){
     else{
      console.log(`Points: ${demerit}`);
     }
-    return text
 }
 
 speedDetector(467)

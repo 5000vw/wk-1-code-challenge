@@ -31,14 +31,28 @@ s
 
  ## 3. Salary Calculator
 
-This is a javascript program to calculate an individual Net Salary by getting inputs of basic salary and benefits. The program calculates  the PAYE (Tax), NHIF deductions, NSSF deductions , Gross Salary and Net Salary.
-The KRA, NSSf, NHIF values used are as follows:
+This is a javascript program to calculate an individual Net Salary by getting inputs of basic salary and benefits. The program calculates  the PAYE (Tax), nhifRate deductions, NSSF deductions , Gross Salary and Net Salary.
+The KRA, NSSf, nhifRate values used are as follows:
 
-  * KRA :
-  * NHIF:
-  * NSSF: 
+  * KRA : extracted from https://www.aren.co.ke/payroll/taxrates.htm
+  * nhifRate: extracted from https://www.aren.co.ke/payroll/taxrates.htm
+  * NSSF: 6% of basic salary (extracted from https://www.aren.co.ke/payroll/taxrates.htm)
 
- The program output the PAYE (Tax), NHIF deductions, NSSF deductions , Gross Salary and Net Salary on the console
+ The program output the PAYE (Tax), nhifRate deductions, NSSF deductions , Gross Salary and Net Salary on the console
 
-  ### License
- This program is under the MIT License
+## Set Up Instructions
+
+To run this project on your local machine, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/yourusernam/your-project.git`
+2. Configure the project by editing file values to required or custom values.
+3. Start the project in console.
+4. Check the output
+
+## Author
+
+Isaac Kiplangat
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
